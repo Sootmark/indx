@@ -1,0 +1,8 @@
+docs_I30.bin, docs_root.bin and docs_fls.txt come from an NTFS volume
+written for these tests on Linux: mkntfs (ntfs-3g), a folder `docs` filled
+with report_001.txt to report_300.txt, then report_050..069 and
+report_200..219 deleted, then unmounted. docs_I30.bin is the folder's
+$INDEX_ALLOCATION:$I30 and docs_root.bin its $INDEX_ROOT:$I30 (The Sleuth
+Kit: icat slack.img 64-160-5 and 64-144-2); docs_fls.txt is The Sleuth
+Kit's listing of the folder (fls slack.img 64). Under this crate's
+licences.

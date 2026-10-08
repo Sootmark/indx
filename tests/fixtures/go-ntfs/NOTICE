@@ -1,0 +1,10 @@
+root_I30.bin is the root folder's $INDEX_ALLOCATION:$I30 of go-ntfs's test
+volume, parser/test_data/test.ntfs.dd, under the Apache License 2.0 (LICENSE,
+in this directory). Copyright the go-ntfs authors.
+
+Source: https://github.com/Velocidex/go-ntfs, at commit
+20cc4d33923d64fcb39c03438568ddfa26bf416b. Extracted with The Sleuth Kit
+(icat test.ntfs.dd 5-160-8); root_fls.txt is its listing (fls test.ntfs.dd 5).
+SHA-256 of root_I30.bin:
+
+  f347c67625c91a616439001fc269bacac929089c501b5c5b1ad598fca27d0b4b

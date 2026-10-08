@@ -1,0 +1,5 @@
+deleted-in-slack.txt: the deleted files of the written volume whose names
+the docs folder's INDX slack keeps, found by slack_names.py (Python alone, fixups
+undone independently of this crate):
+
+  python3 -I tests/oracle/slack_names.py tests/fixtures/written/docs_I30.bin > tests/oracle/deleted-in-slack.txt
